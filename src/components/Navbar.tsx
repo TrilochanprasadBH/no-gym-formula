@@ -1,6 +1,5 @@
 import React from 'react';
 import { HoneybeeIcon } from './Icons';
-import { PopupButton } from '@typeform/embed-react';
 
 export const Navbar = () => {
   return (
@@ -12,12 +11,12 @@ export const Navbar = () => {
           </div>
           No Gym Formula
         </div>
-        <PopupButton 
-          id="BZDF60HX"
+        <button
+          data-tally-open="EkvX14"
           className="bg-botanical text-cream px-6 py-2.5 rounded-full font-medium hover:bg-botanical-light transition-colors duration-300 shadow-sm inline-block"
         >
           Join Free
-        </PopupButton>
+        </button>
       </div>
     </nav>
   );

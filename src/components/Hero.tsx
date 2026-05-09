@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { CheckCircle2 } from 'lucide-react';
-import { PopupButton } from '@typeform/embed-react';
+
 import { LeafDecoration } from './Icons';
 import { HeroSteps } from './HeroSteps';
 
@@ -36,12 +36,12 @@ export const Hero = () => {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="mt-8"
           >
-            <PopupButton 
-              id="BZDF60HX"
+            <button
+              data-tally-open="EkvX14"
               className="bg-honey text-white px-10 py-5 rounded-2xl font-bold text-lg hover:bg-honey/90 transition-all shadow-md hover:shadow-lg whitespace-nowrap inline-block"
             >
               Start Our Challenge
-            </PopupButton>
+            </button>
           </motion.div>
           <motion.p 
             initial={{ opacity: 0 }}

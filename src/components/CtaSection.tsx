@@ -1,5 +1,5 @@
 import React from 'react';
-import { PopupButton } from '@typeform/embed-react';
+
 import { HoneybeeIcon } from './Icons';
 
 export const CtaSection = () => {
@@ -10,12 +10,12 @@ export const CtaSection = () => {
         <h2 className="text-4xl md:text-5xl font-serif tracking-tight mb-6">Ready to see what sticks?</h2>
         <p className="text-lg text-botanical/70 mb-10 font-medium">Join 2,400+ people building the habit of daily movement.</p>
         
-        <PopupButton 
-          id="BZDF60HX"
+        <button
+          data-tally-open="EkvX14"
           className="bg-botanical text-cream px-10 py-5 rounded-2xl font-bold text-lg hover:bg-botanical-light transition-all shadow-md hover:shadow-lg inline-block"
         >
           Start Our Challenge
-        </PopupButton>
+        </button>
       </div>
     </section>
   );
