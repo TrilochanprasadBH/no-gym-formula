@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #FDF6EC;
+  --color-botanical: #2D5A27;
+  --color-honey: #F59E0B;
+  --color-botanical-light: #3a7532;
+  --color-botanical-dark: #1f3d1b;
+  --font-serif: 'Instrument Serif', ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-sans: 'Outfit', ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-botanical);
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
